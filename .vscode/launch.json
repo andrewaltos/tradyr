@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:tradyr}",
+      "name": "Debug Tradyr",
+      "target": "Tradyr",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug Tradyr"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:tradyr}",
+      "name": "Release Tradyr",
+      "target": "Tradyr",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release Tradyr"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:tradyr}",
+      "name": "Debug tradyr-probe",
+      "target": "tradyr-probe",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug tradyr-probe"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:tradyr}",
+      "name": "Release tradyr-probe",
+      "target": "tradyr-probe",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release tradyr-probe"
+    }
+  ]
+}
