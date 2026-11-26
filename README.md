@@ -1,4 +1,8 @@
-# Tradyr
+<p align="center">
+  <img src="Resources/AppIcon.png" alt="Tradyr app icon" width="128" height="128">
+</p>
+
+<h1 align="center">Tradyr</h1>
 
 Live captions and French ↔ English translation for macOS, shown in a small always-on-top overlay.
 Everything runs on-device: speech recognition is Apple's `SpeechAnalyzer`, translation is Apple's
